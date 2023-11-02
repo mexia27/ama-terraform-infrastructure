@@ -1,0 +1,3 @@
+output "bockit-name" {
+    value = aws_s3_bucket.images_bucket.id
+}
